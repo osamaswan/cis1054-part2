@@ -1,1 +1,24 @@
+{% extends "layout.html" %} 
+{% block contactus %}    
+    <div class="contact-title">
+        <h1>
+            Hello
+        </h1>
+        <h2>
+            We Are Ready To Serve You
+        </h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contactus.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input name="email" type="email" class="form-control <?= $invalid ?? "" ?>" placeholder="Your email" required>
+        <br>
+            <textarea name="massage" class="form-control" placeholder="Massage" row="4" required></textarea></br>
+            <button type="submit" class="form-control submit" name="SEND MASSAGE">SEND MASSAGE</button>
 
+        </form>
+
+    </div>     
+</head>
+{% endblock %}
