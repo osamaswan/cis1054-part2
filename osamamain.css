@@ -1,0 +1,121 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background: rgb(197, 16, 16);
+    background-size: cover;
+    text-align: center;
+    border: 5px solid black;
+    
+}
+  
+.food-box {
+    box-shadow: 0 12px 18px 0 rgba(0,0,0,0.8);
+    transition: 1s;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.food-box:hover {
+    box-shadow: 0 9px 16px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+.box{ width: 900px;
+    float: right;
+    border: 3px solid black;}
+    
+
+    
+    .box ul li{
+      width: 150px;
+      float: left;
+      margin: 10px auto;
+      text-align: center;
+    }
+    .box ul li a{ text-decoration: black;
+    color: black;
+    text-align: center;
+    padding-left: 2em;
+    padding-bottom: 3em;}
+    
+    .box ul li:hover {background-color: rgb(11, 155, 11);}
+    .box ul li a:hover{color: white;}
+
+
+.form-control:invalid:focus{
+        border-color:red;
+}
+.contact-title{
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+
+.contact-form{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-emphasis-color: white;
+    padding: 7em;
+
+}
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    
+}
+.form-control {
+    width: 600px;
+    outline: 2px rgb(11, 155, 11);
+    border: 2px solid rgb(11, 155, 11);
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
+    
+
+}
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: rgb(11, 155, 11);
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+form .submit:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.form-invalid {
+  outline:2px solid red !important;
+
+}
