@@ -27,11 +27,6 @@ img {
     padding: 2px 16px;
 }
 
-.box{ width: 834px;
-    float: right;
-    border: 3px solid black;}
-    
-
     
     .box ul li{
       width: 150px;
@@ -43,7 +38,8 @@ img {
     color: black;
     text-align: center;
     padding-left: 2em;
-    padding-bottom: 3em;}
+    padding-bottom: 3em;
+    padding: auto;}
     
     .box ul li:hover {background-color: rgb(11, 155, 11);}
     .box ul li a:hover{color: white;}
@@ -52,7 +48,14 @@ img {
 .form-control:invalid:focus{
         border-color:red;
 }
+
+.wrapper{
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0 0 20px 0 rgba(112, 9, 9, 0.829);
+}
+
 .contact-title{
+    padding: 24px 24px 24px 24px;
     margin-top: 100px;
     color: black;
     text-transform: uppercase;
@@ -67,7 +70,7 @@ img {
 }
 
 .contact-form{
-    width: 600px;
+    width: 100%;
     background: transparent;
     border: none;
     outline: none;
@@ -80,12 +83,17 @@ img {
 
 }
 form {
+    align-items: center;
     margin-top: 50px;
     transition: all 4s ease-in-out;
     
 }
+
+.contact form textarea{
+    width: 100%;
+}
+
 .form-control {
-    width: 600px;
     outline: 2px rgb(11, 155, 11);
     border: 2px solid rgb(11, 155, 11);
     background-color: whitesmoke;
@@ -100,7 +108,8 @@ input{
     height: 45px;
 }
 
-form .submit{
+form .submit{  
+    align-items: center;
     background: rgb(11, 155, 11);
     border-color: transparent;
     color: #fff;
@@ -119,3 +128,17 @@ form .submit:hover{
   outline:2px solid red !important;
 
 }
+/* for larger screens */
+@media(min-width:800px){
+    .form-control {
+        width: 600px;
+    }  
+    .contact-form{
+        width: 600px;
+    }      
+    form .submit{
+        width: 600px;
+    }
+
+}
+    
