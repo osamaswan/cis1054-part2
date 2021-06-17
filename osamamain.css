@@ -7,6 +7,10 @@ body{
     border: 5px solid black;
     
 }
+
+.p{
+    font-size: 12px;
+}
   
 .food-box {
     box-shadow: 0 12px 18px 0 rgba(0,0,0,0.8);
