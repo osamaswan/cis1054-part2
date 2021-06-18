@@ -1,5 +1,14 @@
 @import
 url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
 .submit{
     margin-top: 5px;
 }
