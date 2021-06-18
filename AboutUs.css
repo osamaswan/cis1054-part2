@@ -1,0 +1,131 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.margin {
+    margin: 5% 0;
+}
+
+.parallax{
+    background: url("img/background.jpg")
+    repeat fixed 100%;
+}
+.parallax-inner{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+nav a{
+    font-family:"Bebas Neue";
+    font-weight: 500;
+    text-decoration:none;
+    text-transform:initial;
+    font-size: 3rem;
+    padding: .5em;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+nav a:hover,
+nav a:focus {
+    color: #ddd;
+}
+.about{
+    font-family: "Bebas Neue";
+}
+.recipes{
+    font-family: "Bebas Neue";
+}
+.products{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.products img{
+    width: 50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+.heading{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 30px auto;
+}
+.container img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+.box{
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.9;
+}
+.box:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+}
+
+h2,p{
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+.location{
+    font-family: "Bebas Neue";
+}
+@media (max-width:600px){
+    .container{
+        width: 85%;
+        display: block;
+    }
+    .box{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+
+.anchor{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
