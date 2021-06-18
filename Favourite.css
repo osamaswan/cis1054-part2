@@ -1,0 +1,65 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@300&display=swap');
+.submit{
+    margin-top: 5px;
+}
+.product{
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+table th{
+    background-color: #efefef;
+}
+.margin {
+    margin: 5% 0;
+}
+
+.parallax{
+    background: url("img/background.jpg")
+    repeat fixed 100%;
+}
+.parallax-inner{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+nav a{
+    font-family:"Bebas Neue";
+    font-weight: 500;
+    text-decoration:none;
+    text-transform:initial;
+    font-size: 3rem;
+    padding: .5em;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+nav a:hover,
+nav a:focus {
+    color: #ddd;
+}
