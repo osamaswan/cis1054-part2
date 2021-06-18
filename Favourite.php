@@ -62,10 +62,11 @@
       
     <nav>
         <ul>
-          <li><a href="">— Home —</a></li>
-          <li><a href="">— About —</a></li>
-          <li><a href="">— Contact —</a></li>
-          <li><a href="">— Favourites —</a></li>
+          <li><a href="index.html">— Home —</a></li>
+          <li><a href="aboutus.html">— About —</a></li>
+          <li><a href="contactus.php">— Contact —</a></li>
+          <li><a href="menu.php">— Menu —</a></li>
+          <li><a href="favourite.php">— Favourites —</a></li>
         </ul>
     </nav>
   </div>
